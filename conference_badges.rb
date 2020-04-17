@@ -1,14 +1,12 @@
-
 def badge_maker(name)
   "Hello, my name is #{name}."
 end
-
 def batch_badge_creator(attendees)
-  counter = 0
-  attendees.each do |person|
-    attendees[counter] = badge_maker(person)
-    counter += 1
-  end
+  # counter = 0
+  # attendees.each do |person|
+  #   attendees[counter] = badge_maker(person)
+  #   counter += 1
+  # end
 end
 
 def assign_rooms(attendees)
